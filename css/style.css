@@ -1,0 +1,180 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+   
+    background: rgb(3, 86, 97);
+   
+    padding: 10px;
+    
+    color: #FFF;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar li a {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar li a:hover {
+    background-color: #3B5949;
+}
+
+.sidebar li a.active{
+    background-color: #3B5949;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    width: 80%;
+    min-height: 650px;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #FFF;
+    border-radius: 5px;
+    color: #2c3e50;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+body{
+    margin: 0;
+    background: url("/perpus/bg.jpg");
+}
+
+/*tabel*/
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.data th {
+    padding: 10px 5px;
+}
+
+table.data td {
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+table.data td a.link {
+    color: #3F27E6;
+    text-decoration: underline;
+}
+table.data td a.link:hover {
+    color: #347FF7;
+    text-decoration: underline;
+}
+
+table.data tr:hover:not(:first-child) {
+    background-color: #f5f5f5;
+}
+
+table.data tr:not(:first-child):nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+
+/*form*/
+
+.form{
+    
+    border-radius: 5px;
+    padding: 4px 20px 15px 20px;
+    box-shadow: 0px 0px 5px black;
+    color: #FFF;
+    margin: 120px;
+    width: 330px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+.btn {
+    width: auto;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+table .btn{
+    font-size: 12px;
+}
+
+.btn-submit {
+    background-color: #27ae60;
+}
+
+.btn-submit:hover {
+    background-color: #CA665C;
+}
+
+.btn-tambah {
+    background-color: #27ae60;
+}
+
+.btn-tambah-div{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.btn-tambah:hover {
+    background-color: #2ecc71;
+}
+
+.btn-edit {
+    background-color: #066e0e;
+}
+.btn-edit:hover{
+    background-color: rgb(87, 128, 155);
+}
+
+.btn-hapus {
+    background-color: #c71905;
+}
+.btn-hapus:hover {
+    background-color: rgb(87, 128, 155);
+}
+
+.buku-cover {
+    max-width: 50px;
+}
