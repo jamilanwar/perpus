@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="container clearfix">
-        <h1>SI Perpustakaan</h1>
+        <h1>Perpustakaan</h1>
         <div class="sidebar">
             <ul>
                 <li><a href="modul_kategori/list-kategori.php">Data Kategori</a></li>

@@ -21,7 +21,7 @@ if (isset($_SESSION['user'])) {
 		<table class="form">
 			<tr>
 				<td colspan="2">
-					<h1 align="center">Login Petugas</h1>
+					<h1 align="center">Login Admin</h1>
 				</td>
 			</tr>
 			<tr>
